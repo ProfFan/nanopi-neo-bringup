@@ -12,6 +12,6 @@ sudo apt-get upgrade
 export LC_CTYPE=en_US.UTF-8
 sudo update-locale LANG=en_US.UTF-8
 sudo apt-get install zsh tmux byobu
-byobu-enable
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+zsh -c "byobu-enable"
